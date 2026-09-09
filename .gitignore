@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+env/
+roboflow-venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Video / large media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Generated output
+tracking_output/
+outputs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+test_real_*.py
+
+*.egg-info/
